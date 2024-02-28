@@ -1,0 +1,42 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f4fae0;
+  }
+  
+  
+  h1 {
+    color: #638728;
+    text-align: center;
+  }
+  
+  
+  p {
+    font-size: 18px;
+  }
+  
+  a:link, a:visited {
+    background-color: #5B7553;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+    a:hover, a:active {
+    background-color: #3e5039;
+    }
+
+  a {
+    color:#5B7553;
+  }
+
+  #pic {
+    height: 200px;
+    width: 200px;
+  }
+
+
+  .header h1 {
+    top: 30px;
+    left: 20px
+  }
