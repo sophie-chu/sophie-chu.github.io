@@ -1,30 +1,25 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #f4fae0;
+    margin: 10px 20px 20px 20px;
   }
-  
   
   h1 {
-    color: #638728;
+    color: #5B7553;
     text-align: left;
   }
-  
-  
+
   p {
     font-size: 18px;
   }
-  
-  a:link, a:visited {
-    background-color: #5B7553;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    }
-    a:hover, a:active {
-    background-color: #3e5039;
-    }
+
+  h3 {
+    margin: 0px;
+  }
+
+  .links h3 {
+    margin: 20px;
+  }
 
   a {
     color:#5B7553;
@@ -37,6 +32,45 @@
 
 
   .header h1 {
-    top: 30px;
+    top: 20px;
     left: 20px
   }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .topnav {
+    background-color: #5B7553;
+    overflow: hidden;
+    }
+
+    .topnav a {
+        float: right;
+        background-color: #5B7553;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 5px 5px;
+        text-decoration: none;
+        font-size: 18px;
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+        background-color: #f4fae0;
+        color: #5B7553;
+        }
+
+    ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .middle {
+        margin: 40px;
+
+    }
