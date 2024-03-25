@@ -57,7 +57,7 @@
     float: left;
     width: 25%;
     margin: auto;
-    position: sticky;
+    position: -webkit-sticky;
   }
 
   .right-column {
